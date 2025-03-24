@@ -1,0 +1,67 @@
+# Archivos de credenciales y entorno
+.env
+.env.local
+.env.*.local
+credentials/
+*.key
+*.pem
+*.crt
+*.cer
+
+# Dependencias de Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor y IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación
+dist/
+build/
+out/
+*.exe
+*.dll
+
+# Archivos de testing y cobertura
+coverage/
+*.lcov
+.nyc_output
+
+# Archivos de registro
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos específicos del proyecto
+*.env
+secrets.json
+config.json
+firebase-key.json
+service-account.json
+
+# Archivos de desarrollo local
+.devcontainer/
+.venv/
+
+# Archivos de PaaS
+.cache/
+.serverless/
+
+# Archivos de documentación
+docs/_build/
